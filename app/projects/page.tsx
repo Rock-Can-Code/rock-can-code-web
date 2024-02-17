@@ -1,8 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import { allProjects } from "contentlayer/generated";
-import { Navigation } from "../../src/views/components/nav";
-import { Card } from "../../src/views/components/card";
+import { Navigation } from "../../src/views/common/components/nav";
+import { Card } from "../../src/views/common/components/card";
 import { Article } from "./article";
 import { Redis } from "@upstash/redis";
 import { Eye } from "lucide-react";
