@@ -1,8 +1,8 @@
 "use client";
 import { socials } from "@/src/constants/socials";
 import Link from "next/link";
-import { Card } from "../../src/views/components/card";
-import { Navigation } from "../../src/views/components/nav";
+import { Card } from "../../src/views/common/components/card";
+import { Navigation } from "../../src/views/common/components/nav";
 
 
 
