@@ -1,23 +1,33 @@
 import { Github } from "lucide-react"
+import React from "react"
 
-export const socials = [
+interface Social {
+	icon:React.ReactNode
+	href: string
+	label: SocialLabelType
+	name: string
+}
+
+type SocialLabelType = 'Github'
+
+export const socials : Social[] = [
 	{
 		icon: <Github size={20} />,
 		href: "https://github.com/jesus-sgonzalez",
 		label: "Github",
-		handle: "jesus-sgonzalez",
+		name: "jesus-sgonzalez",
 	},
 	{
 		icon: <Github size={20} />,
 		href: "https://github.com/daniel-gil-owlsline",
 		label: "Github",
-		handle: "daniel-gil-owlsline",
+		name: "daniel-gil-owlsline",
 	},
 	{
 		icon: <Github size={20} />,
 		href: "https://github.com/adriel-owls",
 		label: "Github",
-		handle: "adriel-owls",
+		name: "adriel-owls",
 	},
 
 ];
