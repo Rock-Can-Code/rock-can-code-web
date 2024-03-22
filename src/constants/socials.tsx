@@ -1,4 +1,4 @@
-import { Github } from "lucide-react"
+import { Github, github } from "lucide-react"
 import React from "react"
 
 interface Social {
@@ -15,19 +15,37 @@ export const socials : Social[] = [
 		icon: <Github size={20} />,
 		href: "https://github.com/jesus-sgonzalez",
 		label: "Github",
-		name: "jesus-sgonzalez",
+		name: "Jesús S. González",
 	},
 	{
 		icon: <Github size={20} />,
 		href: "https://github.com/daniel-gil-owlsline",
 		label: "Github",
-		name: "daniel-gil-owlsline",
+		name: "Daniel Gil",
 	},
 	{
 		icon: <Github size={20} />,
 		href: "https://github.com/adriel-owls",
 		label: "Github",
-		name: "adriel-owls",
+		name: "Adriel Arocha",
+	},
+	{
+		icon: <Github size={20} />,
+		href: "https://github.com/jesus-sgonzalez",
+		label: "Github",
+		name: "Jesús S. González",
+	},
+	{
+		icon: <Github size={20} />,
+		href: "https://github.com/daniel-gil-owlsline",
+		label: "Github",
+		name: "Daniel Gil",
+	},
+	{
+		icon: <Github size={20} />,
+		href: "https://github.com/adriel-owls",
+		label: "Github",
+		name: "Adriel Arocha",
 	},
 
 ];
