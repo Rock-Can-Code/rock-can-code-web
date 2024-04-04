@@ -3,9 +3,9 @@ import React from "react";
 import { allProjects } from "contentlayer/generated";
 import { Navigation } from "../../src/views/common/components/nav";
 import { Card } from "../../src/views/common/components/card";
-import { Article } from "./article";
-import { Redis } from "@upstash/redis";
-import { Eye } from "lucide-react";
+// import { Article } from "./article";
+// import { Redis } from "@upstash/redis";
+// import { Eye } from "lucide-react";
 
 // const redis = Redis.fromEnv();
 
@@ -37,14 +37,14 @@ export default async function ProjectsPage() {
   //       new Date(b.date ?? Number.POSITIVE_INFINITY).getTime() -
   //       new Date(a.date ?? Number.POSITIVE_INFINITY).getTime(),
   //   );
-  const featured : {name: string, slug: string} = []
+  // const featured : {name: string, slug: string} = []
   const top2 = allProjects.find((project) => project.slug === "planetfall")!;
   const top3 = allProjects.find((project) => project.slug === "highstorm")!;
   const sorted = allProjects
     .filter((p) => p.published)
     .filter(
       (project) =>
-        project.slug !== featured.slug &&
+        // project.slug !== featured.slug &&
         project.slug !== top2.slug &&
         project.slug !== top3.slug,
     )
