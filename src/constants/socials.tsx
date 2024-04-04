@@ -1,51 +1,114 @@
-import { Github, github } from "lucide-react"
+import { Github, Linkedin, Mail } from "lucide-react"
 import React from "react"
 
-interface Social {
+export interface SocialInfo {
 	icon:React.ReactNode
 	href: string
 	label: SocialLabelType
-	name: string
 }
 
-type SocialLabelType = 'Github'
+export interface OwlsMemberInfo {
+	name: string,
+	socials: SocialInfo[]
+}
 
-export const socials : Social[] = [
+export const owlsMembersInfo : OwlsMemberInfo[]= [
 	{
+	name: 'Jesús S. González',
+	socials: [
+		{
 		icon: <Github size={20} />,
 		href: "https://github.com/jesus-sgonzalez",
 		label: "Github",
-		name: "Jesús S. González",
+		},
+		{
+		icon: <Linkedin size={20} />,
+		href: "https://www.linkedin.com/in/jesus-german-sanchez-gonzalez/",
+		label: "LinkedIn",
+		},
+		{
+		icon: <Mail size={20} />,
+		href: "jesus.sgonzalez@owlsline.com",
+		label: "Email",
+		}
+	]
 	},
 	{
+	name: 'Adriel Arocha',
+	socials: [
+		{
 		icon: <Github size={20} />,
-		href: "https://github.com/daniel-gil-owlsline",
+		href: "https://github.com/adriel87",
 		label: "Github",
-		name: "Daniel Gil",
+		},
+		{
+		icon: <Linkedin size={20} />,
+		href: "https://www.linkedin.com/in/adriel-arocha-oronoz/",
+		label: "LinkedIn",
+		},
+		{
+		icon: <Mail size={20} />,
+		href: "adriel.arocha@owlsline.com",
+		label: "Email",
+		}
+	]
 	},
 	{
+	name: 'Sergio Castellano',
+	socials: [
+		{
 		icon: <Github size={20} />,
-		href: "https://github.com/adriel-owls",
+		href: "https://github.com/SCASTELLANO6044",
 		label: "Github",
-		name: "Adriel Arocha",
+		},
+		{
+		icon: <Linkedin size={20} />,
+		href: "https://www.linkedin.com/in/sergiotcastellano/",
+		label: "LinkedIn",
+		},
+		{
+		icon: <Mail size={20} />,
+		href: "sergio.castellano@owlsline.com",
+		label: "Email",
+		}
+	]
 	},
 	{
+	name: 'Idaira Alemán',
+	socials: [
+		{
 		icon: <Github size={20} />,
-		href: "https://github.com/jesus-sgonzalez",
+		href: "https://github.com/curiousidy",
 		label: "Github",
-		name: "Jesús S. González",
+		},
+		{
+		icon: <Linkedin size={20} />,
+		href: "https://www.linkedin.com/in/idaira-alem%C3%A1n-quintana-60ba772b/",
+		label: "LinkedIn",
+		},
+		{
+		icon: <Mail size={20} />,
+		href: "idaira.aleman@owlsline.com",
+		label: "Email",
+		}
+	]
 	},
 	{
-		icon: <Github size={20} />,
-		href: "https://github.com/daniel-gil-owlsline",
-		label: "Github",
-		name: "Daniel Gil",
+	name: 'Daniel Gil',
+	socials: [
+		{
+		icon: <Linkedin size={20} />,
+		href: "https://www.linkedin.com/in/daniel-gil-suárez-b66ba1262/",
+		label: "LinkedIn",
+		},
+		{
+		icon: <Mail size={20} />,
+		href: "daniel.gil@owlsline.com",
+		label: "Email",
+		}
+	]
 	},
-	{
-		icon: <Github size={20} />,
-		href: "https://github.com/adriel-owls",
-		label: "Github",
-		name: "Adriel Arocha",
-	},
+]
 
-];
+type SocialLabelType = 'Github' | 'LinkedIn' | 'Email'
+
