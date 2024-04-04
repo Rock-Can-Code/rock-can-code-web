@@ -11,7 +11,7 @@ export const NAVIGATION_LIST = [
 export enum NAVIGATION_ENUM {
 Projects='/projects',
 Contact='/contact',
-AboutUs='/aboutus',
+AboutUs='/about',
 Services='/services',
 blog='/blog',
 }
