@@ -48,7 +48,7 @@ export const owlsMembersInfo : OwlsMemberInfo[]= [
 		},
 		{
 		icon: <Mail size={20} />,
-		href: "adriel.arocha@owlsline.com",
+		href: "adrielarochaoronoz@gmail.com",
 		label: "Email",
 		}
 	]
@@ -68,7 +68,7 @@ export const owlsMembersInfo : OwlsMemberInfo[]= [
 		},
 		{
 		icon: <Mail size={20} />,
-		href: "sergio.castellano@owlsline.com",
+		href: "sergiocastellanotrabajo@mail.com",
 		label: "Email",
 		}
 	]
@@ -88,7 +88,27 @@ export const owlsMembersInfo : OwlsMemberInfo[]= [
 		},
 		{
 		icon: <Mail size={20} />,
-		href: "idaira.aleman@owlsline.com",
+		href: "idairaalemanquintana@gmail.com",
+		label: "Email",
+		}
+	]
+	},
+	{
+	name: 'Crisamer Ortega',
+	socials: [
+		{
+		icon: <Github size={20} />,
+		href: "https://github.com/CoderCris",
+		label: "Github",
+		},
+		{
+		icon: <Linkedin size={20} />,
+		href: "https://www.linkedin.com/in/crisa-mothflight/",
+		label: "LinkedIn",
+		},
+		{
+		icon: <Mail size={20} />,
+		href: "crisamer.ortega@gmail.com",
 		label: "Email",
 		}
 	]
