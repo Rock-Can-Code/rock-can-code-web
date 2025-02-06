@@ -6,19 +6,19 @@ import { Analytics } from "../src/views/common/components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "owlsline.com",
-    template: "%s | owlsline.com",
+    default: "rockcancode.com",
+    template: "%s | rockcancode.com",
   },
   description: "un grupo de desarrolladores entusiastas",
   openGraph: {
-    title: "owlsline.com",
+    title: "rockcancode.com",
     description:
       "un grupo de desarrolladores entusiastas",
-    url: "https://owlsline.com",
-    siteName: "owlsline.com",
+    url: "https://rockcancode.com",
+    siteName: "rockcancode.com",
     images: [
       {
-        url: "https://owlsline.com/og.png",
+        url: "https://rockcancode.com/og.png",
         width: 1920,
         height: 1080,
       },
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Owl's Line",
+    title: "Rock Can Code",
     card: "summary_large_image",
   },
   icons: {
