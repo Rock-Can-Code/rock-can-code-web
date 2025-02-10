@@ -1,8 +1,8 @@
-interface OwlsLogoProps {
+interface RCCLogoProps {
     variant?: 'black' | 'white'
   }
   
-  const OwlsBaseLogo = ({variant='white'}:OwlsLogoProps) => {
+  const RCCBaseLogo = ({variant='white'}:RCCLogoProps) => {
   
     switch(variant){
       case "white":
@@ -48,7 +48,7 @@ interface OwlsLogoProps {
     
   }
   
-  const OwlsCompleteLogo = ({variant='white'}:OwlsLogoProps) => {
+  const RCCCompleteLogo = ({variant='white'}:RCCLogoProps) => {
   
     switch(variant){
       case "white":
