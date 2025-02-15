@@ -1,11 +1,13 @@
-"use client";
+"use client";;
 import { SocialInfo } from "@/src/constants/socials";
 import Link from "next/link";
 import { JSX } from "react";
 
+import type { JSX } from "react";
+
 export interface SocialMediaInfoProps {
 	social: SocialInfo
-} 
+}
 
 export function SocialMediaInfo({ social }: SocialMediaInfoProps) {
 	let socialComponent: JSX.Element = <></>;
