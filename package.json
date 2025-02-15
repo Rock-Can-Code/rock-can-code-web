@@ -3,22 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "fmt": "pnpm rome check . --apply-unsafe && pnpm rome format . --write"
   },
   "dependencies": {
-    "@next/mdx": "^14.1.0",
+    "@next/mdx": "15.1.7",
     "@upstash/redis": "^1.28.4",
-    "contentlayer": "^0.3.4",
     "framer-motion": "^11.0.5",
-    "lucide-react": "^0.331.0",
     "markdown-wasm": "^1.2.0",
-    "next": "^14.1.0",
-    "next-contentlayer": "^0.3.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "next": "15.1.7",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
     "react-wrap-balancer": "^1.1.0",
     "rehype-autolink-headings": "^7.1.0",
     "rehype-pretty-code": "^0.13.0",
@@ -31,8 +28,8 @@
     "@tailwindcss/line-clamp": "^0.4.4",
     "@tailwindcss/typography": "^0.5.10",
     "@types/node": "^20.11.19",
-    "@types/react": "^18.2.56",
-    "@types/react-dom": "^18.2.19",
+    "@types/react": "19.0.8",
+    "@types/react-dom": "19.0.3",
     "autoprefixer": "^10.4.17",
     "postcss": "^8.4.35",
     "postcss-nesting": "^12.0.2",
@@ -52,8 +49,7 @@
     }
   },
   "overrides": {
-    "next-contentlayer": {
-      "next": "$next"
-    }
+    "@types/react": "19.0.8",
+    "@types/react-dom": "19.0.3"
   }
 }
