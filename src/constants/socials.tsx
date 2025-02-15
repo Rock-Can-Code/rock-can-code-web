@@ -7,12 +7,12 @@ export interface SocialInfo {
 	label: SocialLabelType
 }
 
-export interface OwlsMemberInfo {
+export interface RockCanCodeMemberInfo {
 	name: string,
 	socials: SocialInfo[]
 }
 
-export const owlsMembersInfo : OwlsMemberInfo[]= [
+export const RockCanCodeMembersInfo : RockCanCodeMemberInfo[]= [
 	{
 	name: 'Jesús S. González',
 	socials: [
