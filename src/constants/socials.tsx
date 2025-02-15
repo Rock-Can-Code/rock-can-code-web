@@ -7,12 +7,12 @@ export interface SocialInfo {
 	label: SocialLabelType
 }
 
-export interface OwlsMemberInfo {
+export interface rock-can-code-MemberInfo {
 	name: string,
 	socials: SocialInfo[]
 }
 
-export const owlsMembersInfo : OwlsMemberInfo[]= [
+export const rock-can-code-MembersInfo : rock-can-code-MemberInfo[]= [
 	{
 	name: 'Jesús S. González',
 	socials: [
@@ -28,7 +28,7 @@ export const owlsMembersInfo : OwlsMemberInfo[]= [
 		},
 		{
 		icon: <Mail size={20} />,
-		href: "jesus.sgonzalez@owlsline.com",
+		href: "jesus.sgonzalez@rock-can-code-line.com",
 		label: "Email",
 		}
 	]
@@ -123,7 +123,7 @@ export const owlsMembersInfo : OwlsMemberInfo[]= [
 		},
 		{
 		icon: <Mail size={20} />,
-		href: "daniel.gil@owlsline.com",
+		href: "daniel.gil@rock-can-code-line.com",
 		label: "Email",
 		}
 	]
