@@ -1,8 +1,12 @@
-import "../global.css";
+import "../../global.css";
 import { Inter } from "next/font/google";
 import LocalFont from "next/font/local";
 import { Metadata } from "next";
-import { Analytics } from "../src/views/common/components/analytics";
+import { Analytics } from "@/src/views/common/components/analytics";
+import { notFound } from "next/navigation";
+import { routing } from "@/src/i18n/routing";
+import { NextIntlClientProvider } from 'next-intl'
+import { getMessages } from "next-intl/server";
 
 export const metadata: Metadata = {
   title: {
@@ -51,17 +55,23 @@ const inter = Inter({
 });
 
 const calSans = LocalFont({
-  src: "../public/fonts/Oswald-SemiBold.ttf",
+  src: "../../public/fonts/Oswald-SemiBold.ttf",
   variable: "--font-calsans",
 });
 
-export default function RootLayout({
+export default async  function RootLayout({
   children,
+  params: {locale} 
 }: {
   children: React.ReactNode;
+  params: {locale: string};
 }) {
+  if (!routing.locales.includes(locale as any)) {
+    notFound();
+  }
+  const messages = await getMessages();
   return (
-    <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
+    <html lang={locale} className={[inter.variable, calSans.variable].join(" ")}>
       <head>
         <Analytics />
       </head>
@@ -69,7 +79,10 @@ export default function RootLayout({
         className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
           }`}
       >
-        {children}
+        <NextIntlClientProvider  messages={messages}>
+          {children}
+        </NextIntlClientProvider>
+        
       </body>
     </html>
   );

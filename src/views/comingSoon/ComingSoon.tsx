@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 import rockCanCodeLogo from 'public/logo-rockcancode.png';
+import {useTranslations} from 'next-intl';
 
 export const ComingSoon = () => {
     const [timeLeft, setTimeLeft] = useState({
@@ -11,6 +12,7 @@ export const ComingSoon = () => {
         seconds: "00",
     });
 
+    const t = useTranslations("HomePage")
     useEffect(() => {
         const countDownDate = new Date("Mar 31, 2025 00:00:00").getTime();
 
@@ -39,10 +41,10 @@ export const ComingSoon = () => {
 
     return (
         <div className="bg-gradient-to-b from-gray-200 via-gray-400 to-gray-600 h-screen flex flex-col items-center justify-center text-white">
-            <h1 className="text-4xl font-bold mb-6 text-black">Coming Soon</h1>
+            <h1 className="text-4xl font-bold mb-6 text-black">{t("Coming Soon")}</h1>
             <Image src={rockCanCodeLogo} width={400} height={400} alt='logo rock can code' />
             <p className="text-black text-xl mt-6">
-                We're working hard to bring you something amazing. Stay tuned!
+                {t("waiting")}
             </p>
             <div className="flex text-2xl my-6 text-black">
                 <div className="mr-2">
