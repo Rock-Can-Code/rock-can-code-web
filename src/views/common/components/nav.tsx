@@ -1,7 +1,8 @@
 "use client";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
-import React from "react";
+import React, { useRef, useState, useEffect } from "react";
+
 
 export function Navigation({
 	children,
@@ -41,6 +42,24 @@ export function Navigation({
 								className="duration-200 text-zinc-400 hover:text-zinc-100"
 							>
 								Contact
+							</Link>
+							<Link
+								href="/about"
+								className="duration-200 text-zinc-400 hover:text-zinc-100"
+							>
+								About us
+							</Link>
+							<Link
+								href="/services"
+								className="duration-200 text-zinc-400 hover:text-zinc-100"
+							>
+								Services
+							</Link>
+							<Link
+								href="/blog"
+								className="duration-200 text-zinc-400 hover:text-zinc-100"
+							>
+								blog
 							</Link>
 						</div>
 
