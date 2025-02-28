@@ -59,13 +59,15 @@ const calSans = LocalFont({
   variable: "--font-calsans",
 });
 
-export default async  function RootLayout({
+export default async function RootLayout({
   children,
-  params: {locale} 
+  params
 }: {
   children: React.ReactNode;
-  params: {locale: string};
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
+
   if (!routing.locales.includes(locale as any)) {
     notFound();
   }
@@ -76,13 +78,11 @@ export default async  function RootLayout({
         <Analytics />
       </head>
       <body
-        className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
-          }`}
+        className={`bg-black ${
+          process.env.NODE_ENV === "development" ? "debug-screens" : undefined
+        }`}
       >
-        <NextIntlClientProvider  messages={messages}>
-          {children}
-        </NextIntlClientProvider>
-        
+        <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
       </body>
     </html>
   );
