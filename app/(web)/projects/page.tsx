@@ -15,7 +15,7 @@ export default async function ProjectsPage() {
             Projects
           </h2>
           <p className="mt-4 text-zinc-400">
-            Some of the projects are from work and some are on my own time.
+            Our projects talk by themselves.
           </p>
         </div>
         <div className="w-full h-px bg-zinc-800" />
@@ -39,11 +39,13 @@ export default async function ProjectsPage() {
                 <p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
                   Uncensored and local runned AI.
                 </p>
+                {/*
                 <div className="mt-4">
                   <p className="text-zinc-200 hover:text-zinc-50">
                     Read more <span aria-hidden="true">&rarr;</span>
                   </p>
                 </div>
+                */}
               </article>
             </Link>
           </Card>
@@ -68,11 +70,13 @@ export default async function ProjectsPage() {
                   <p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
                     The future of HRMs.
                   </p>
+                  {/*
                   <div className="mt-4">
                     <p className="text-zinc-200 hover:text-zinc-50">
-                      Read more <span aria-hidden="true">&rarr;</span>
+                    Read more <span aria-hidden="true">&rarr;</span>
                     </p>
                   </div>
+                  */}
                 </article>
               </Link>
             </Card>
