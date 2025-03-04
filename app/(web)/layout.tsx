@@ -1,5 +1,5 @@
 import { Navigation } from "@/src/views/common/components/nav";
-import "../../../global.css";
+import "../../global.css";
 
 export default function Layout({
   children,
