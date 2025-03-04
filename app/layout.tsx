@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 import LocalFont from "next/font/local";
 import "../global.css";
 import { Analytics } from "../src/views/common/components/analytics";
-import { Metadata } from "@/src/views/common/components/metadata";
+import { Footer } from "../src/views/common/components/footer";
 
 export const metadata: Metadata = {
   title: {
@@ -74,6 +74,7 @@ export default function RootLayout({
         <Navigation>
           {children}
         </Navigation>
+        <Footer />
       </body>
     </html>
   );
