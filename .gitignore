@@ -39,4 +39,13 @@ next-env.d.ts
 .contentlayer
 package-lock.json
 
+<<<<<<< Updated upstream
 .vscode
+=======
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+>>>>>>> Stashed changes
