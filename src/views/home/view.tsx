@@ -9,7 +9,7 @@ export const HomeView = () => {
   return (
     <div className="relative bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 pt-16">
 
-      <Particles className="absolute inset-0 -z-10" quantity={60} />
+      <Particles className="absolute inset-0 -z-10" quantity={150} />
 
       <div className="container min-h-screen mx-auto px-4 flex flex-col gap-16 py-16">
 
