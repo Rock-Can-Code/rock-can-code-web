@@ -1,8 +1,9 @@
 "use client";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
+import { usePathname, useRouter } from 'next/navigation'
 import React, { useRef, useState, useEffect } from "react";
-
+import { BackButton } from "@/src/views/common/components/backButton";
 
 export function Navigation({
 	children,
@@ -63,12 +64,8 @@ export function Navigation({
 							</Link>
 						</div>
 
-						<Link
-							href="/"
-							className="duration-200 text-zinc-300 hover:text-zinc-100"
-						>
-							<ArrowLeft className="w-6 h-6 " />
-						</Link>
+						<BackButton/>
+
 					</div>
 				</div>
 			</header>

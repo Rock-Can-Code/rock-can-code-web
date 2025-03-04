@@ -1,8 +1,10 @@
-import "../global.css";
+import { Navigation } from "@/src/views/common/components/nav";
+import { Metadata } from "next";
 import { Inter } from "next/font/google";
 import LocalFont from "next/font/local";
-import { Metadata } from "next";
+import "../global.css";
 import { Analytics } from "../src/views/common/components/analytics";
+import { Metadata } from "@/src/views/common/components/metadata";
 
 export const metadata: Metadata = {
   title: {
@@ -69,7 +71,9 @@ export default function RootLayout({
         className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
           }`}
       >
-        {children}
+        <Navigation>
+          {children}
+        </Navigation>
       </body>
     </html>
   );
