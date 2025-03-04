@@ -1,7 +1,7 @@
 "use client";
 import { RockCanCodeMembersInfo } from "@/src/constants/socials";
-import { Card } from "../../../src/views/common/components/card";
 import { SocialMediaInfo } from "./SocialMediaInfo";
+import { Card } from "@/src/views/common/components/card";
 
 export default function Contact() {
 	return (
