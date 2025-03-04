@@ -2,6 +2,7 @@
 import { SocialInfo } from "@/src/constants/socials";
 import Link from "next/link";
 import { JSX } from "react";
+import React from 'react';
 
 
 export interface SocialMediaInfoProps {
