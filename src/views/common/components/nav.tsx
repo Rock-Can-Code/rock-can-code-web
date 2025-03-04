@@ -1,8 +1,9 @@
 "use client";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
+import { usePathname, useRouter } from 'next/navigation'
 import React, { useRef, useState, useEffect } from "react";
-
+import { BackButton } from "@/src/views/common/components/backButton";
 
 export function Navigation({
 	children,
@@ -32,6 +33,12 @@ export function Navigation({
 					<div className="container flex flex-row-reverse items-center justify-between p-6 mx-auto">
 						<div className="flex justify-between gap-8">
 							<Link
+								href="/"
+								className="duration-200 text-zinc-400 hover:text-zinc-100"
+							>
+								Home
+							</Link>
+							<Link
 								href="/projects"
 								className="duration-200 text-zinc-400 hover:text-zinc-100"
 							>
@@ -55,20 +62,17 @@ export function Navigation({
 							>
 								Services
 							</Link>
+							{/*
 							<Link
 								href="/blog"
 								className="duration-200 text-zinc-400 hover:text-zinc-100"
 							>
-								blog
-							</Link>
+								Blog
+							</Link>*/}
 						</div>
 
-						<Link
-							href="/"
-							className="duration-200 text-zinc-300 hover:text-zinc-100"
-						>
-							<ArrowLeft className="w-6 h-6 " />
-						</Link>
+						<BackButton/>
+
 					</div>
 				</div>
 			</header>
