@@ -1,6 +1,7 @@
-import { Card } from "@/src/views/common/components/card";
 import Link from "next/link";
 import React from "react";
+import { Navigation } from "../../../src/views/common/components/nav";
+import { Card } from "../../../src/views/common/components/card";
 
 export const revalidate = 60;
 export default async function ProjectsPage() {
