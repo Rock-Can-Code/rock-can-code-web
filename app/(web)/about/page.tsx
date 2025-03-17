@@ -1,5 +1,5 @@
 import { AboutView } from "@/src/views/about/view";
 
-const Page = () => <AboutView/>
-
-export default Page
+export default function Page() {
+  return <AboutView />
+}
