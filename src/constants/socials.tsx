@@ -128,11 +128,6 @@ export const RockCanCodeMembersInfo: RockCanCodeMemberInfo[] = [
         href: "https://www.linkedin.com/in/daniel-gil-suárez-b66ba1262/",
         label: "LinkedIn",
       },
-      {
-        icon: <Mail size={20} />,
-        href: "mailto:daniel.gil@owlsline.com",
-        label: "Email",
-      },
     ],
   },
 ];
