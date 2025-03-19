@@ -1,9 +1,7 @@
 "use client";
-import { ArrowLeft } from "lucide-react";
-import Link from "next/link";
-import { usePathname, useRouter } from 'next/navigation'
-import React, { useRef, useState, useEffect } from "react";
 import { BackButton } from "@/src/views/common/components/backButton";
+import React, { useEffect, useRef, useState } from "react";
+import { Links } from "./Links";
 
 export function Navigation({
 	children,
@@ -31,48 +29,8 @@ export function Navigation({
 							: "bg-zinc-900/500  border-zinc-800 "}`}
 				>
 					<div className="container flex flex-row-reverse items-center justify-between p-6 mx-auto">
-						<div className="flex justify-between gap-8">
-							<Link
-								href="/"
-								className="duration-200 text-zinc-400 hover:text-zinc-100"
-							>
-								Home
-							</Link>
-							<Link
-								href="/projects"
-								className="duration-200 text-zinc-400 hover:text-zinc-100"
-							>
-								Projects
-							</Link>
-							<Link
-								href="/contact"
-								className="duration-200 text-zinc-400 hover:text-zinc-100"
-							>
-								Contact
-							</Link>
-							<Link
-								href="/about"
-								className="duration-200 text-zinc-400 hover:text-zinc-100"
-							>
-								About us
-							</Link>
-							<Link
-								href="/services"
-								className="duration-200 text-zinc-400 hover:text-zinc-100"
-							>
-								Services
-							</Link>
-							{/*
-							<Link
-								href="/blog"
-								className="duration-200 text-zinc-400 hover:text-zinc-100"
-							>
-								Blog
-							</Link>*/}
-						</div>
-
+						<Links/>
 						<BackButton/>
-
 					</div>
 				</div>
 			</header>
@@ -81,3 +39,4 @@ export function Navigation({
 
 	);
 }
+
