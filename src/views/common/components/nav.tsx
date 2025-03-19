@@ -56,13 +56,14 @@ export function Navigation({
 							>
 								About us
 							</Link>
+							{/*
 							<Link
 								href="/services"
 								className="duration-200 text-zinc-400 hover:text-zinc-100"
 							>
 								Services
 							</Link>
-							{/*
+							
 							<Link
 								href="/blog"
 								className="duration-200 text-zinc-400 hover:text-zinc-100"
