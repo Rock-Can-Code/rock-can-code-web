@@ -59,8 +59,8 @@ export function Navigation({ children }: { children: React.ReactNode }) {
 							<Link href="/about" className="block text-zinc-400 hover:text-zinc-100 p-2 lg:p-0" onClick={() => setMenuOpen(false)}>
 								About us
 							</Link>
-							<Link href="/services" className="block text-zinc-400 hover:text-zinc-100 p-2 lg:p-0" onClick={() => setMenuOpen(false)}>
-								Services
+							<Link href="/blog" className="block text-zinc-400 hover:text-zinc-100 p-2 lg:p-0" onClick={() => setMenuOpen(false)}>
+								Blog
 							</Link>
 						</nav>
 						
