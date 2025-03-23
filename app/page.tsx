@@ -1,9 +1,6 @@
-import { HomeView } from "@/src/views/home/view";
+import {redirect} from 'next/navigation';
 
-
-
-export default function Home() {
-  return <HomeView />
+// This page only renders when the app is built statically (output: 'export')
+export default function RootPage() {
+  redirect('/en');
 }
-
-
