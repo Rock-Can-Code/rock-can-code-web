@@ -2,10 +2,12 @@ import { RockCanCodeMembersInfo } from "@/src/constants/socials";
 import { Card } from "@/src/views/common/components/card";
 import Image from "next/image";
 import { SocialMediaInfo } from "./SocialMediaInfo";
+import Particles from "@/src/views/common/components/particles";
 
 export default function Contact() {
 	return (
 		<div className="bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
+			<Particles className="absolute inset-0 -z-10" quantity={150} />
 			<div data-testid="contact-container" className="container flex items-center justify-center min-h-screen px-4 mx-auto">
 				<div className="grid w-full grid-cols-1 gap-6 mx-auto mt-20 sm:mt-0 sm:grid-cols-2 lg:grid-cols-3 lg:gap-10">
 					{RockCanCodeMembersInfo.map((dataContact, i) => (

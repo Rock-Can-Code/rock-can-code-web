@@ -1,6 +1,9 @@
+import Particles from "@/src/views/common/components/particles";
+
 export default function TermsPage() {
   return (
     <div className="container mx-auto px-6 py-16">
+      <Particles className="absolute inset-0 -z-10" quantity={150} />
       <div className="text-center mb-16">
         <h1 className="text-4xl md:text-6xl font-extrabold text-zinc-200">Terms of Service</h1>
       </div>
