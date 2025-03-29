@@ -13,7 +13,7 @@ export default function Contact() {
 					{RockCanCodeMembersInfo.map((dataContact, i) => (
 						<Card key={`${dataContact.name}-${i}`}>
 							<div className="p-4 relative flex flex-col items-center gap-4 duration-700 group md:gap-6 md:py-12 lg:pb-10 md:p-6">
-								<Image
+								<img
 									src={dataContact.image}
 									alt={dataContact.name}
 									width={100}
