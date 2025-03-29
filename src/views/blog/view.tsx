@@ -7,7 +7,7 @@ import Particles from "../common/components/particles";
 import { useParams } from 'next/navigation'
 import { Card } from "../common/components/card";
 
-export const BlogView = () =>{ //posts)=> {
+export const BlogHeader = ()=> {
     return(
     <div className="relative bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 pt-16">
            <Particles className="absolute inset-0 -z-10" quantity={150} />
@@ -34,10 +34,8 @@ export const BlogView = () =>{ //posts)=> {
 
             <div className="w-full h-px bg-zinc-800" />
 
-            <Container >
+            {/* <Container >
               <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2 space-y-10">
-                {/* {posts} */}
-
               <Card >
                 <Link href={`/projects/`}>
                   <article className="relative w-full h-full p-4 md:p-8">
@@ -61,33 +59,6 @@ export const BlogView = () =>{ //posts)=> {
                 </Link>
               </Card>
               </div>
-            </Container>
-
-            {/* <Container className="mt-12 text-white max-w-3xl mx-auto px-4 space-y-10">
-              {
-                posts.map((post) => (
-                  <div
-                  key={post.slug}
-                  className="bg-zinc-800/40 hover:bg-zinc-800/60 transition-colors rounded-xl p-6 border border-zinc-700"
-                >
-                  <Link href={`/blog/${post.slug}`} className="block space-y-2">
-                    <h2 className="text-2xl font-semibold text-white">{post.title || post.slug}</h2>
-                    {post.date && (
-                      <p className="text-sm text-zinc-400">
-                        {new Date(post.date).toLocaleDateString(undefined, {
-                          year: "numeric",
-                          month: "long",
-                          day: "numeric",
-                        })}
-                      </p>
-                    )}
-                    {post.excerpt && (
-                      <p className="text-zinc-300 text-base">{post.excerpt}</p>
-                    )}
-                  </Link>
-                </div>
-                ))
-              }
             </Container> */}
         
         </div>

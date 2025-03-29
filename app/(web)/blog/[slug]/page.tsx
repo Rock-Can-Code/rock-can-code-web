@@ -7,6 +7,7 @@ import { getAllPosts, getPostBySlug } from "@/util/api";
 import markdownToHtml from "@/util/markdownToHtml";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Particles from "@/src/views/common/components/particles";
 
 export default async function Post(props: Params) {
   const params = await props.params;
@@ -19,8 +20,11 @@ export default async function Post(props: Params) {
 
   const content = await markdownToHtml(post.content || "");
 
+
+  //TODO: move this to a component
   return (
-    <main>
+    <main className="relative bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 pt-16">
+      <Particles className="absolute inset-0 -z-10" quantity={150} />
       <Alert preview={post.preview} />
       <Container>
         <Header />
@@ -65,7 +69,6 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
 
 export async function generateStaticParams() {
   const posts = getAllPosts();
-  console.log('post', posts)  
   return posts.map((post) => ({
     slug: post.slug,
   }));
