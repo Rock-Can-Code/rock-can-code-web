@@ -1,8 +1,8 @@
 import Alert from "@/src/views/common/components/alert";
 import Container from "@/src/views/common/components/container";
 import Header from "@/src/views/common/components/header";
-import { PostBody } from "@/src/views/common/components/post-body";
-import { PostHeader } from "@/src/views/common/components/post-header";
+  import { PostBody } from "@/src/views/common/components/post-body";
+  import { PostHeader } from "@/src/views/common/components/post-header";
 import { getAllPosts, getPostBySlug } from "@/util/api";
 import markdownToHtml from "@/util/markdownToHtml";
 import { Metadata } from "next";
