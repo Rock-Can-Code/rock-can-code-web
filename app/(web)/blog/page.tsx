@@ -8,7 +8,7 @@ import markdownToHtml from "@/util/markdownToHtml";
 import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { BlogHeader, BlogPostView, BlogView } from "@/src/views/blog/view";
+import { BlogHeader} from "@/src/views/blog/view";
 import { Main } from "next/document";
 import Particles from "@/src/views/common/components/particles";
 
