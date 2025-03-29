@@ -15,7 +15,7 @@ export default async function Post(props: Params) {
   posts.map((post) => (console.log('post', post.slug)));
   
 
-  return ( <BlogView posts={posts}/> );
+  return ( <BlogView />); //posts={posts}/> );
 }
 
 type Params = {
