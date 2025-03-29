@@ -7,7 +7,7 @@ import Particles from "../common/components/particles";
 import { useParams } from 'next/navigation'
 import { Card } from "../common/components/card";
 
-export const BlogView = (posts)=> {
+export const BlogView = () =>{ //posts)=> {
     return(
     <div className="relative bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 pt-16">
            <Particles className="absolute inset-0 -z-10" quantity={150} />
