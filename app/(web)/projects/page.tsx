@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import { Navigation } from "../../../src/views/common/components/nav";
 import { Card } from "../../../src/views/common/components/card";
 
 export const revalidate = 60;
@@ -34,7 +33,7 @@ export default async function ProjectsPage() {
                   id="featured-post"
                   className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display"
                 >
-                  Freedom AI.
+                  Free, private and anonymous AI.
                 </h2>
                 <p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
                   Uncensored and local runned AI.
