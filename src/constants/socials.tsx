@@ -28,11 +28,6 @@ export const RockCanCodeMembersInfo: RockCanCodeMemberInfo[] = [
         href: "https://www.linkedin.com/in/jesus-german-sanchez-gonzalez/",
         label: "LinkedIn",
       },
-      {
-        icon: <Mail size={20} />,
-        href: "mailto:jesusgermansanchezgonzalez@gmail.com",
-        label: "Email",
-      },
     ],
   },
   {
@@ -48,11 +43,6 @@ export const RockCanCodeMembersInfo: RockCanCodeMemberInfo[] = [
         icon: <Linkedin size={20} />,
         href: "https://www.linkedin.com/in/adriel-arocha-oronoz/",
         label: "LinkedIn",
-      },
-      {
-        icon: <Mail size={20} />,
-        href: "mailto:adrielarochaoronoz@gmail.com",
-        label: "Email",
       },
     ],
   },
@@ -70,11 +60,6 @@ export const RockCanCodeMembersInfo: RockCanCodeMemberInfo[] = [
         href: "https://www.linkedin.com/in/sergiotcastellano/",
         label: "LinkedIn",
       },
-      {
-        icon: <Mail size={20} />,
-        href: "mailto:sergiocastellanotrabajo@mail.com",
-        label: "Email",
-      },
     ],
   },
   {
@@ -91,11 +76,6 @@ export const RockCanCodeMembersInfo: RockCanCodeMemberInfo[] = [
         href: "https://www.linkedin.com/in/idaira-alem%C3%A1n-quintana-60ba772b/",
         label: "LinkedIn",
       },
-      {
-        icon: <Mail size={20} />,
-        href: "mailto:idairaalemanquintana@gmail.com",
-        label: "Email",
-      },
     ],
   },
   {
@@ -111,11 +91,6 @@ export const RockCanCodeMembersInfo: RockCanCodeMemberInfo[] = [
         icon: <Linkedin size={20} />,
         href: "https://www.linkedin.com/in/crisa-mothflight/",
         label: "LinkedIn",
-      },
-      {
-        icon: <Mail size={20} />,
-        href: "mailto:crisamer.ortega@gmail.com",
-        label: "Email",
       },
     ],
   },
