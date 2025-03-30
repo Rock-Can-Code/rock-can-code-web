@@ -59,7 +59,7 @@ export const HomeView = () => {
                 { name: "Kafka", src: "/images/kafka.svg" }
               ].map((tech, index) => (
                 <div key={index} className="p-4 flex flex-col items-center w-120 h-120 justify-center rounded-xl">
-                  <Image src={tech.src} alt={tech.name} width={120} height={120} />
+                  <img src={tech.src} alt={tech.name} width={120} height={120} />
                   <p className="mt-2 text-zinc-300 text-center font-semibold">{tech.name}</p>
                 </div>
               ))}
