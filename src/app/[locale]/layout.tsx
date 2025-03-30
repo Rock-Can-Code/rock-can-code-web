@@ -2,7 +2,7 @@ import { Navigation } from "@/src/views/common/components/nav";
 import { Metadata } from "next";
 import { Inter } from "next/font/google";
 import LocalFont from "next/font/local";
-import "../../global.css";
+import "../../../global.css";
 
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { routing } from "@/src/i18n/routing";
@@ -57,7 +57,7 @@ const inter = Inter({
 });
 
 const calSans = LocalFont({
-  src: "../../public/fonts/Oswald-SemiBold.ttf",
+  src: "../../../public/fonts/Oswald-SemiBold.ttf",
   variable: "--font-calsans",
 });
 
