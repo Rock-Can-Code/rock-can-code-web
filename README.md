@@ -10,8 +10,8 @@ Para poner en marcha el proyecto en tu entorno local, sigue estos pasos:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/rockandcode/repository-name.git
-   cd repository-name
+   git clone https://github.com/rockandcode/rock-can-code-web.git
+   cd rock-can-code-web
    ```
 2. **Instalar dependencias:**
    Asegúrate de tener instalado **Node.js** (versión recomendada 18.x o superior) y **npm** o **yarn**.
