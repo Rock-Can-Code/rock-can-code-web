@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="-1.2 -1.2 17.40 17.40"
+   fill="none"
+   stroke="#ffffff"
+   stroke-width="0.12"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="nextjs-forged-white-fill.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.71329397"
+     inkscape:cx="582.50878"
+     inkscape:cy="481.56863"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <g
+     id="SVGRepo_bgCarrier"
+     stroke-width="0" />
+  <g
+     id="SVGRepo_tracerCarrier"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke="#ffffff"
+     stroke-width="0.96">
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="M0 7.5C0 3.35786 3.35786 0 7.5 0C11.6421 0 15 3.35786 15 7.5C15 10.087 13.6902 12.3681 11.6975 13.7163L4.90687 4.20942C4.78053 4.03255 4.5544 3.95756 4.34741 4.02389C4.14042 4.09022 4 4.28268 4 4.50004V12H5V6.06027L10.8299 14.2221C9.82661 14.7201 8.696 15 7.5 15C3.35786 15 0 11.6421 0 7.5ZM10 10V4H11V10H10Z"
+       fill="#000000"
+       id="path1" />
+  </g>
+  <g
+     id="SVGRepo_iconCarrier">
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="M0 7.5C0 3.35786 3.35786 0 7.5 0C11.6421 0 15 3.35786 15 7.5C15 10.087 13.6902 12.3681 11.6975 13.7163L4.90687 4.20942C4.78053 4.03255 4.5544 3.95756 4.34741 4.02389C4.14042 4.09022 4 4.28268 4 4.50004V12H5V6.06027L10.8299 14.2221C9.82661 14.7201 8.696 15 7.5 15C3.35786 15 0 11.6421 0 7.5ZM10 10V4H11V10H10Z"
+       fill="#000000"
+       id="path2" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="logo fill">
+    <path
+       style="fill:none;stroke-width:0.00261"
+       d="M 4.4921934,11.715242 C 4.4706319,4.3197026 4.4706319,4.3197026 4.4706319,4.3197026 L 11.585874,14.367286"
+       id="path3" />
+    <path
+       style="fill:#ffffff;stroke-width:0.00261"
+       d="M 4.308922,11.661338 4.27658,4.4382899 4.8156135,4.4490707 4.8048327,11.758364 Z"
+       id="path4" />
+    <path
+       style="fill:#ffffff;stroke-width:0.00261"
+       d="M 4.3304832,4.9449814 11.197769,14.539777 11.790706,14.140892 4.7724906,4.4490707 Z"
+       id="path5" />
+    <path
+       style="fill:#ffffff;stroke-width:0.00261"
+       d="m 10.572491,14.82816 c 0,0 0.835502,-0.293773 1.436524,-0.781599"
+       id="path6" />
+    <path
+       style="fill:#ffffff;stroke-width:0.00261"
+       d="m 11.480762,14.216357 0.129368,0.07007 0.242565,-0.148234 -0.16171,-0.08085 z"
+       id="path7" />
+    <path
+       style="fill:#ffffff;stroke-width:0.00261"
+       d="m 10.257156,9.6669144 0.43624,-0.024256 0.09471,-5.4415427 -0.571375,0.043123 z"
+       id="path8" />
+  </g>
+</svg>

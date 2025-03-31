@@ -1,24 +1,26 @@
-import "../global.css";
+import { Navigation } from "@/src/views/common/components/nav";
+import { Metadata } from "next";
 import { Inter } from "next/font/google";
 import LocalFont from "next/font/local";
-import { Metadata } from "next";
+import "../global.css";
 import { Analytics } from "../src/views/common/components/analytics";
+import { Footer } from "../src/views/common/components/footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "rockcancode.com",
-    template: "%s | rockcancode.com",
+    default: "Rock Can Code",
+    template: "%s | Rock Can Code",
   },
-  description: "un grupo de desarrolladores entusiastas",
+  description: "We are a group of young developers eager to create innovative projects that generate a positive social impact.",
   openGraph: {
-    title: "rockcancode.com",
+    title: "Rock Can Code",
     description:
-      "un grupo de desarrolladores entusiastas",
+      "We are a group of young developers eager to create innovative projects that generate a positive social impact.",
     url: "https://rockcancode.com",
     siteName: "rockcancode.com",
     images: [
       {
-        url: "https://rockcancode.com/og.png",
+        url: "https://rockcancode.com/rcc.png",
         width: 1920,
         height: 1080,
       },
@@ -69,7 +71,10 @@ export default function RootLayout({
         className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
           }`}
       >
-        {children}
+        <Navigation>
+          {children}
+        </Navigation>
+        <Footer />
       </body>
     </html>
   );
