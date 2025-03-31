@@ -3,7 +3,8 @@ import { Metadata } from "next";
 import { Inter } from "next/font/google";
 import LocalFont from "next/font/local";
 import "../global.css";
-import { Analytics } from "../src/views/common/components/analytics";
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Footer } from "../src/views/common/components/footer";
 
 export const metadata: Metadata = {
@@ -66,6 +67,7 @@ export default function RootLayout({
     <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
       <head>
         <Analytics />
+        <SpeedInsights/>
       </head>
       <body
         className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
