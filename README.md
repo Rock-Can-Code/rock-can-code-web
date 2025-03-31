@@ -10,7 +10,7 @@ Para poner en marcha el proyecto en tu entorno local, sigue estos pasos:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/rockandcode/rock-can-code-web.git
+   git clone https://github.com/Rock-Can-Code/rock-can-code-web.git
    cd rock-can-code-web
    ```
 2. **Instalar dependencias:**
