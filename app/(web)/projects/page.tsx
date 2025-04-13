@@ -21,7 +21,7 @@ export default async function ProjectsPage() {
 
         <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2 ">
           <Card>
-            <Link href={`/projects/`}>
+            <Link href={`/blog/jiyuu_chat`}>
               <article className="relative w-full h-full p-4 md:p-8">
                 <div className="flex justify-end">
                   <span className="text-xs text-zinc-500">
@@ -33,18 +33,16 @@ export default async function ProjectsPage() {
                   id="featured-post"
                   className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display"
                 >
-                  Free, private and anonymous AI.
+                  Jiyuu chat
                 </h2>
                 <p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
                   Uncensored and local runned AI.
                 </p>
-                {/*
-                <div className="mt-4">
-                  <p className="text-zinc-200 hover:text-zinc-50">
-                    Read more <span aria-hidden="true">&rarr;</span>
+                  {/* <Link href={`/blog/jiyuu_chat`}> */}
+                  <p className="text-zinc-200 hover:text-zinc-50 underline italic">
+                    Read post <span aria-hidden="true">&rarr;</span>
                   </p>
-                </div>
-                */}
+                  {/* </Link> */}
               </article>
             </Link>
           </Card>
@@ -69,13 +67,11 @@ export default async function ProjectsPage() {
                   <p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
                     The future of HRMs.
                   </p>
-                  {/*
-                  <div className="mt-4">
-                    <p className="text-zinc-200 hover:text-zinc-50">
-                    Read more <span aria-hidden="true">&rarr;</span>
-                    </p>
-                  </div>
-                  */}
+                  
+                  <p className="text-zinc-200 hover:text-zinc-50  italic">
+                    Coming Soon <span aria-hidden="true"></span>
+                  </p>
+
                 </article>
               </Link>
             </Card>
