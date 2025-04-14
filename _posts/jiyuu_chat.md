@@ -10,7 +10,7 @@ ogImage:
   url: "/assets/blog/jiyuu-chat/cover-og.png"
 ---
 
-We're excited to finally release **[Jiyuu Chat](https://jiyuu.chat/)**—a project that embodies everything we believe in when it comes to technology and freedom. It’s an AI chat that runs **entirely in your browser**, powered by [WebLLM](https://webllm.mlc.ai/), which means **all your data stays with you**. No cloud, no tracking, no account needed.
+We're excited to finally release **[Jiyuu Chat 🌐](https://jiyuu.chat/)**—a project that embodies everything we believe in when it comes to technology and freedom. It’s an AI chat that runs **entirely in your browser**, powered by [WebLLM 🌐](https://webllm.mlc.ai/), which means **all your data stays with you**. No cloud, no tracking, no account needed.
 
 ## Why Jiyuu?
 
@@ -22,7 +22,7 @@ Thanks to WebLLM, everything runs client-side—your browser does the heavy lift
 
 We built Jiyuu Chat using **Next.js**, with performance and simplicity in mind. It’s an open source project, and we’d love for you to check it out, play with it, and contribute if you’re into that:
 
-👉 [GitHub – Rock-Can-Code/jiyuu-chat](https://github.com/Rock-Can-Code/jiyuu-chat)
+👉 [GitHub – Rock-Can-Code/jiyuu-chat 🌐](https://github.com/Rock-Can-Code/jiyuu-chat)
 
 Getting started is easy:
 
@@ -39,4 +39,4 @@ This project is more than just a tech demo—it’s a statement. We believe user
 
 We're proud of what we've built, and we're even more excited to see where it can go with your input.
 
-Come try it out at jiyuu.chat and let us know what you think. Contributions, bug reports, and love letters all welcome ❤️
+Come try it out at [jiyuu.chat 🌐](https://jiyuu.chat/) and let us know what you think. Contributions, bug reports, and love letters all welcome ❤️

@@ -1,4 +1,3 @@
-import Alert from "@/src/views/common/components/alert";
 import Container from "@/src/views/common/components/container";
 import Header from "@/src/views/common/components/header";
   import { PostBody } from "@/src/views/common/components/post-body";
@@ -26,7 +25,6 @@ export default async function Post(props: Params) {
 
     <div className="relative bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 pt-16 text-white lg:pb-10">
       <Particles className="absolute inset-0 -z-10" quantity={150} />
-      <Alert preview={post.preview} />
       <Container>
         <Header />
         <article className="mb-32 text-white">
