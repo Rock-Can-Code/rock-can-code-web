@@ -4,8 +4,8 @@ excerpt: "Meet Jiyuu Chat, a fully local AI chat powered by WebLLM. No servers, 
 coverImage: "/assets/blog/jiyuu-chat/cover.png"
 date: "2025-04-13T10:00:00.000Z"
 author:
-  name: Rock can Code
-  picture: "/assets/blog/authors/rock.png"
+  name: Crisa Ortega
+  picture: "/images/profile/crisamer.png"
 ogImage:
   url: "/assets/blog/jiyuu-chat/cover-og.png"
 ---

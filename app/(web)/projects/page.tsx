@@ -36,13 +36,11 @@ export default async function ProjectsPage() {
                   Jiyuu chat
                 </h2>
                 <p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
-                  Uncensored and local runned AI.
+                  Free, private, uncensored and local runned AI.
                 </p>
-                  {/* <Link href={`/blog/jiyuu_chat`}> */}
                   <p className="text-zinc-200 hover:text-zinc-50 underline italic">
                     Read post <span aria-hidden="true">&rarr;</span>
                   </p>
-                  {/* </Link> */}
               </article>
             </Link>
           </Card>
