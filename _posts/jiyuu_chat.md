@@ -10,13 +10,17 @@ ogImage:
   url: "/assets/blog/jiyuu-chat/cover-og.png"
 ---
 
-We're excited to finally release **[Jiyuu Chat 🌐](https://jiyuu.chat/)**—a project that embodies everything we believe in when it comes to technology and freedom. It’s an AI chat that runs **entirely in your browser**, powered by [WebLLM 🌐](https://webllm.mlc.ai/), which means **all your data stays with you**. No cloud, no tracking, no account needed.
+We're excited to finally release **[Jiyuu Chat 🌐](https://jiyuu.chat/)**—a project that embodies everything we believe in when it comes to technology and freedom. It’s an AI chat designed with privacy and autonomy at its core, currently powered by [WebLLM 🌐](https://webllm.mlc.ai/), which means **all your data stays with you**. No tracking, no account needed, and no unnecessary reliance on the cloud
 
 ## Why Jiyuu?
 
 “Jiyuu” means *freedom* in Japanese, and that’s exactly what we’re aiming for. AI is moving fast, but most of the tools out there ask you to trade your privacy for convenience. With Jiyuu Chat, we wanted to flip that: give you a fast, capable AI chat experience without asking for *anything* in return.
 
 Thanks to WebLLM, everything runs client-side—your browser does the heavy lifting. This means you get all the benefits of a smart assistant, without ever sending your input to a server. Your conversations are yours and yours alone.
+
+## Censorship
+
+While Jiyuu Chat V1 uses a safe, aligned model to ensure broad accessibility, we're already working on V2, which will introduce uncensored large language models. This next version aims to give users full control and freedom of expression, without imposed limitations—always prioritizing privacy, transparency, and user autonomy.
 
 ## Built for Devs and the Curious
 
