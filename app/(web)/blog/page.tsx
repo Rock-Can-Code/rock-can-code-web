@@ -12,7 +12,7 @@ export default async function Post(props: Params) {
   //TODO: move this to a component
   return (
 
-    <div className="relative bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 pt-16">
+    <div className="min-h-screen flex flex-col relative bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 pt-16">
       <Particles className="absolute inset-0 -z-10" quantity={150} />
       <Container>
         <div className="container mx-auto px-4 flex flex-col gap-16 py-16">
