@@ -33,35 +33,34 @@ export default async function Post(props: Params) {
             along the way.
           </p>
         </div>
-      </Container>
 
-
-<div className="px-6 pt-5 mx-auto space-y-8 max-w-7xl lg:px-8 md:pt-5 lg:pt-10 lg:pb-10">
-      <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2">
-        {posts.map((post) => (
-          <div
-            key={post.slug}
-            className="bg-zinc-800/40 hover:bg-zinc-800/60 transition-colors rounded-xl p-6 border border-zinc-700"
-          >
-            <Link href={`/blog/${post.slug}`} className="block space-y-2">
-              <h2 className="text-2xl font-semibold text-white">{post.title || post.slug}</h2>
-              {post.date && (
-                <p className="text-sm text-zinc-400">
-                  {new Date(post.date).toLocaleDateString(undefined, {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  })}
-                </p>
-              )}
-              {post.excerpt && (
-                <p className="text-zinc-300 text-base">{post.excerpt}</p>
-              )}
-            </Link>
+        <div className="px-6 pt-5 space-y-8 max-w-7xl lg:px-8 md:pt-5 lg:pt-10 lg:pb-10">
+          <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2">
+            {posts.map((post) => (
+              <div
+                key={post.slug}
+                className="bg-zinc-800/40 hover:bg-zinc-800/60 transition-colors rounded-xl p-6 border border-zinc-700"
+              >
+                <Link href={`/blog/${post.slug}`} className="block space-y-2">
+                  <h2 className="text-2xl font-semibold text-white">{post.title || post.slug}</h2>
+                  {post.date && (
+                    <p className="text-sm text-zinc-400">
+                      {new Date(post.date).toLocaleDateString(undefined, {
+                        year: "numeric",
+                        month: "long",
+                        day: "numeric",
+                      })}
+                    </p>
+                  )}
+                  {post.excerpt && (
+                    <p className="text-zinc-300 text-base">{post.excerpt}</p>
+                  )}
+                </Link>
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
-      </div>
+        </div>
+      </Container>
     </div>
   );
 }
