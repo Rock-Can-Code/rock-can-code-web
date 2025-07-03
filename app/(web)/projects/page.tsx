@@ -74,6 +74,36 @@ export default async function ProjectsPage() {
               </Link>
             </Card>
           </div>
+
+          <div className="flex flex-col w-full gap-8 mx-auto border-t border-gray-900/10 lg:mx-0 lg:border-t-0 ">
+            
+            <Card>
+              <Link href={`/projects/`}>
+                <article className="relative w-full h-full p-4 md:p-8">
+                  <div className="flex justify-end">
+                    <span className="text-xs text-zinc-500">
+                      <span>SOON</span>
+                    </span>
+                  </div>
+
+                  <h2
+                    id="featured-post"
+                    className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display"
+                  >
+                    Goals
+                  </h2>
+                  <p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
+                    Live your life to the fullest.
+                  </p>
+                  
+                  <p className="text-zinc-200 hover:text-zinc-50  italic">
+                    Coming Soon <span aria-hidden="true"></span>
+                  </p>
+
+                </article>
+              </Link>
+            </Card>
+          </div>
         </div>
         
         <div className="hidden w-full h-px md:block bg-zinc-800" />
